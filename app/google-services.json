@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "674201987356",
+    "project_id": "final-project-3339d",
+    "storage_bucket": "final-project-3339d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674201987356:android:2e63a3f7083862cba832d9",
+        "android_client_info": {
+          "package_name": "np.com.bimalkafle.firebaseauthdemoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWLCHQ6EsCXKqFaVsIVSNdutrSPm-GzAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
