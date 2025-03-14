@@ -100,7 +100,7 @@ fun SignupPage(
         TextButton(onClick = {
             navController.navigate("login")
         }) {
-            Text(text = "Already have an account, Login")
+            Text(text = "Already have an account? Login")
         }
 
     }

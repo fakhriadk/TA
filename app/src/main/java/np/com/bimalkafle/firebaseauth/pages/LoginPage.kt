@@ -32,7 +32,6 @@ import np.com.bimalkafle.firebaseauthdemoapp.AuthViewModel
 @Composable
 fun LoginPage(modifier: Modifier = Modifier,navController: NavController,authViewModel: AuthViewModel) {
 
-
     var email by remember {
         mutableStateOf("")
     }
@@ -58,7 +57,9 @@ fun LoginPage(modifier: Modifier = Modifier,navController: NavController,authVie
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = "Login Page", fontSize = 32.sp)
+        Text(text = "Welcome Back!", fontSize = 36.sp)
+
+        Text(text = "Login to your account", fontSize = 16.sp)
 
         Spacer(modifier = Modifier.height(16.dp))
 
@@ -93,7 +94,6 @@ fun LoginPage(modifier: Modifier = Modifier,navController: NavController,authVie
             Text(text = "Login")
         }
 
-
         Spacer(modifier = Modifier.height(8.dp))
 
         TextButton(onClick = {
@@ -101,7 +101,5 @@ fun LoginPage(modifier: Modifier = Modifier,navController: NavController,authVie
         }) {
             Text(text = "Don't have an account? Sign up")
         }
-
     }
-
 }
